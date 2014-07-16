@@ -1,5 +1,26 @@
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name">Android_common</string>
 
+    <plurals name="message_view_attachment_bytes">
+        <item quantity="one"  ><xliff:g id="size_in_bytes" example="1"  >%d</xliff:g>B</item>
+        <item quantity="other"><xliff:g id="size_in_bytes" example="279">%d</xliff:g>B</item>
+    </plurals>
+    
+    <plurals name="message_view_attachment_kilobytes">
+        <item quantity="one"  ><xliff:g id="size_in_kilobytes" example="1"  >%d</xliff:g>KB</item>
+        <item quantity="other"><xliff:g id="size_in_kilobytes" example="279">%d</xliff:g>KB</item>
+    </plurals>
+    
+    <plurals name="message_view_attachment_megabytes">
+        <item quantity="one"  ><xliff:g id="size_in_megabytes" example="1"  >%d</xliff:g>MB</item>
+        <item quantity="other"><xliff:g id="size_in_megabytes" example="279">%d</xliff:g>MB</item>
+    </plurals>
+    
+    <plurals name="message_view_attachment_gigabytes">
+        <item quantity="one"  ><xliff:g id="size_in_gigabytes" example="1"  >%d</xliff:g>GB</item>
+        <item quantity="other"><xliff:g id="size_in_gigabytes" example="279">%d</xliff:g>GB</item>
+    </plurals>
+    <string name="not_add_more_text">"Can't not add more text" </string>
+    <string name="no_application_response">"Application has been disabled"</string>
 </resources>
