@@ -16,27 +16,17 @@
 
 package org.lawrence.common.util;
 
-import org.lawrence.common.R;
-
 import android.app.Activity;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
-import android.location.Address;
-import android.net.ConnectivityManager;
-import android.net.Uri;
-import android.provider.ContactsContract;
-import android.provider.ContactsContract.QuickContact;
 import android.text.InputFilter;
 import android.text.Spanned;
-import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.ImageView;
 import android.widget.Toast;
-
-
+import org.lawrence.common.R;
 
 public class UiUtilities {
     private UiUtilities() {

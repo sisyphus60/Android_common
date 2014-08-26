@@ -23,4 +23,10 @@
     </plurals>
     <string name="not_add_more_text">"Can't not add more text" </string>
     <string name="no_application_response">"Application has been disabled"</string>
+    
+    <!-- for RefreshableListView -->
+    <string name="cm_loading">Loading &#8230;</string>
+    <string name="cm_down_for_update">Pull down to update</string>
+    <string name="cm_release_for_update">Release to update</string>
+    
 </resources>
